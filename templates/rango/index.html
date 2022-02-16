@@ -9,15 +9,22 @@
         #menu { font-weight: bold; }
     </style>
     <head>
-        <title>Rangooooooooooo</title>
+        <title>Rango</title>
     </head>
     
     <body>
-        
-            <h1 class="warning">My name is Simone.</h1>
-            <p id="menu">I like coffee.</p>
+        <h1 class="warning">Rango says...</h1>
+        <div>
+            hey there partner!<br />
+            <strong>{{ boldmessage }}</strong><br />
+        </div>
+        <div>
+            <p id="menu">I like orange juice.</p>
             <p class="warning">I also like chocolate</p>
-            <a href="/rango/about/">Rango says hey there partner!</a>
+            <a href="/rango/about/">About</a><br />
+            <img src="{% static 'images/rango.jpg' %}" alt="Picture of Rango" />
+        </div>
+            
     </body>
 
 </html>
